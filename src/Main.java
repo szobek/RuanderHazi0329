@@ -45,7 +45,7 @@ public class Main {
 
     static void paratlanListaIndexszel(int[] tomb) {
         for (int i = 0; i < tomb.length; i++) {
-            if (tomb[i] % 2 == 0) {
+            if (tomb[i] % 2 == 1) {
                 System.out.println("A páratlan szám: " + tomb[i] + " és az index: " + i);
             }
         }
