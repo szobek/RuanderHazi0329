@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -97,11 +98,8 @@ public class Main {
     static String getIndexByNum(int num, int[][] szamok2) {
         StringBuilder index = new StringBuilder("");
         for (int i =0;i<szamok2.length;i++){
-            for (int j=0;j< szamok2[i].length;j++){
-                if(num==szamok2[i][j]){
-                    index.append(" az i: "+i + " a j: "+j);
-                }
-            }
+           int indexOfArray = Arrays.asList(szamok2[i]).indexOf(num);
+            index.append(" az i: "+i + " a j: "+indexOfArray);
         }
         return index.toString();
     }
