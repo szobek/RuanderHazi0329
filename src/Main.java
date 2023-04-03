@@ -91,7 +91,7 @@ public class Main {
     static void ertekMindketTombbolIndexszel(int[] tomb, int[][] szamok2) {
         for (int i = 0; i <szamok2.length ; i++) {
             for (int j = 0; j < szamok2[i].length ; j++) {
-                System.out.println("Szám: "+szamok2[i][j] + " index 1: " + (i * 6 + j) + " ,index 2: " + i + "," + j);
+                System.out.println("Szám: "+szamok2[i][j] + " index 1: " + (i * 5 + j) + " ,index 2: " + i + "," + j);
             }
             System.out.println();
         }
